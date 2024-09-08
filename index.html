@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Saving Website</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favi.png" type="image/png">
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tax Saving Website</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="images.png" alt="Tax Saving Logo" class="logo">
+            <h1 style="color: black;">Tax Saving Website</h1>
+        </header>
+    
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="calculator.html">Calculator</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="Contactus.html">Contact</a></li>
+            </ul>
+        </nav>
+    
+        <div class="img">
+            <div class="overlay">
+                <div class="intro">
+                    <h2>Welcome to Tax Saving Tips!</h2>
+                    <p>Your go-to resource for maximizing your tax savings.</p>
+                </div>
+    
+                <div class="cal">
+                    <h2>Tax Savings Calculator</h2>
+                    <form>
+                        <label for="income">Enter your income (INR):</label>
+                        <input type="number" id="income" name="income" required>
+                        <button type="button">Calculate Savings</button>
+                        <p id="savings">Your Estimated Savings: ₹0.00</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    <div class="blog">
+        <h2>Tax Saving Tips Blog</h2>
+        <section class="blog-section">
+            <article class="blog-post" id="post1">
+                <img src="blog1.jpg" alt="Tax Saving Tips" class="blog-image">
+                <h2>Explained: Penalty on Interest Imposed Under Section 234A, 234B, and 234C</h2>
+                <p class="preview">Paying income tax and filing income tax returns is the duty of every citizen of India. It.......</p>
+                <p class="full-content">Paying income tax and filing income tax returns is the duty of every citizen of India. However, the Income Tax Act also penalizes taxpayers who fail to file their returns on time or who fail to pay their tax dues. Under Sections 234A, 234B, and 234C, taxpayers may be liable to pay interest on late payments and penalties on non-compliance. These penalties can add up, making it crucial for taxpayers to understand these sections and avoid falling into the trap of interest penalties.</p>
+                <a href="#" class="read-more" onclick="toggleContent('post1');">Read More</a>
+            </article>
+    
+            <article class="blog-post" id="post2">
+                <img src="blog2.jpg" alt="Investment Strategies" class="blog-image">
+                <h2>Section 194I- TDS on Rent</h2>
+                <p class="preview">Section 194-IB of the Income Tax Act, 1961 mentions that tax @ 5% or 3.75% should be.......</p>
+                <p class="full-content">Section 194-IB of the Income Tax Act, 1961, states that individuals and HUFs who are not liable to audit under Section 44AB are required to deduct tax at source when paying rent to a resident exceeding ₹50,000 per month. The deduction is typically 5%, but it was reduced to 3.75% during a specific period. This deduction must be done at the time of crediting rent for the last month of the financial year or the last month of tenancy, whichever is earlier.</p>
+                <a href="#" class="read-more" onclick="toggleContent('post2');">Read More</a>
+            </article>
+    
+            <article class="blog-post" id="post3">
+                <img src="blog3.jpg" alt="Retirement Planning" class="blog-image">
+                <h2>How to Plan Your Retirement and Save Tax</h2>
+                <p class="preview">Planning for retirement is crucial, and it can also help you save on taxes. This post walks you through the best retirement plans and their tax benefits.</p>
+                <p class="full-content">Planning for retirement is essential to ensure financial security during your golden years. Various retirement plans not only offer a secure future but also come with tax benefits. For example, investing in Public Provident Fund (PPF), National Pension Scheme (NPS), or even retirement mutual funds can help you build a substantial retirement corpus while also saving on taxes under different sections of the Income Tax Act. This post will help you understand the best options available and how they can be integrated into your financial planning strategy.</p>
+                <a href="#" class="read-more" onclick="toggleContent('post3');">Read More</a>
+            </article>
+        </section>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Tax Saving Website. All rights reserved.</p>
+    </footer>
+
+    <script src="calculator.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
